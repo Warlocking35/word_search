@@ -27,8 +27,7 @@ def word_search():
                 connected_word.append(words)
                 number_cw += 1
 
-        print("{}: found {} times"
-              .format(word_selection, number_cw))
+        print(f"{word_selection}: found {number_cw} times")
         number_cw = 0
     print("Come again!")
 
